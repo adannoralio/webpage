@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: #1f2937
+}
+.header-item1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#placeholder{
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    
+}
+.header-item2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+    padding: 40px;
+    color: aliceblue;
+    font-family: monospace;
+    font-size: 18px;
+    flex-wrap: wrap;
+
+}
+.elhudaly{
+    max-width: 100%;
+    height: auto;
+}
+h1{
+    font-size: 48px;
+}
+.signup{
+    margin-top: 100px;
+    border: solid blue 3px;
+    width: 100px;
+    padding: 3px;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 3PX;
+}
+.logo{
+    font-size: 50px;
+    font-family: monospace;
+    border: solid black 3px;
+    padding: 3px;
+    background-color: black;
+    color: aliceblue;
+    margin-top: 12px;
+    border-radius: 4px;
+}
+ul{
+    display:flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 60px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    
+}
+
+a{
+    text-decoration: none;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 4px;
+    color: black;
+    background-color: aliceblue;
+}
+.images{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.caption{
+    font-size: 36px;
+
+}
+.item{
+    width: 200px;
+    height: 200px;
+    border: 2px solid;
+    border-radius: 100%;
+}
+.body-header{
+    margin-top: 20px;
+    font-family: monospace;
+    text-align:center;
+
+}
+.body-item2{
+    background-color: #E5E7EB;
+    font-size: 26px;
+    font-family:monospace;
+    color: #1f2937;
+    margin-top: 50px;
+    text-align: center;
+    padding: 28px;
+}
+.footer-items{
+    width: 70%;
+    background-color: blue;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    border-radius: 5px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    
+}
+.para{
+    font-size: 20px;
+    margin: 5px;
+}
+.button {
+    padding: 15px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: blue;
+    background-color:white;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
